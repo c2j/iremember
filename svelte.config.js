@@ -19,6 +19,10 @@ const config = {
 			},
 			optimizeDeps: {
 				include: ['@fullcalendar/common']
+			},
+			server: {
+				host: '0.0.0.0',
+				https: true
 			}
 		}
 	}

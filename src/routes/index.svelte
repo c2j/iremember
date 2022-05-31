@@ -26,9 +26,9 @@
     $: console.log(wavUrls);
 
     const weave_config = {
-        'host': 'localhost',
-        'port': 1984,
-        'protocol': 'http'
+        'host': 'testnet.redstone.tools',
+        'port': 443,
+        'protocol': 'https'
     }
 
 	if (browser) {
